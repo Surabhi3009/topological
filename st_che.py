@@ -26,17 +26,7 @@ try:
         st.pyplot(fig=f[0])
         display(f)
         
-    """else:
-        c= st.text_input("Enter SMILES")
-        #st.write("Hello", your_name)
-        #c=smiles_to_iupac(c)
-        #c=CIRconvert(c)
-        #st.success("Success")
-
-        r=qspr.topological_ind(c)
-        st.subheader("Molecular graph")
-        st.pyplot(fig=r[0])
-        dispaly(r)"""
+    
 except AttributeError:
     pass
         
