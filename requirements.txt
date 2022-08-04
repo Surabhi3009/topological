@@ -1,4 +1,3 @@
-kora.install.rdkit
 numpy
 pandas
 rdkit
