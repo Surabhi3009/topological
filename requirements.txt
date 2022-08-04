@@ -1,7 +1,7 @@
 kora.install.rdkit
 numpy
 pandas
-rdkit-pypi
+rdkit
 networkx
 matplotlib
 streamlit
