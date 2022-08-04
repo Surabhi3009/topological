@@ -1,0 +1,7 @@
+kora.install.rdkit
+numpy
+pandas
+rdkit
+networkx
+matplotlib
+streamlit
