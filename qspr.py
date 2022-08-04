@@ -1,7 +1,7 @@
 
 
 #!pip install kora -q
-import kora.install.rdkit
+#import kora.install.rdkit
 
 import numpy as np
 import pandas as pd
