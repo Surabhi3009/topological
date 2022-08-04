@@ -1,11 +1,7 @@
 import qspr
 import streamlit as st
 
-option = st.selectbox(
-     'How would you like to give input?',
-     ('cmpd name', 'SMILES'))
 
-st.write('You selected:', option)
 
 def display(f):
     l=["First zagreb index ",'Randic index ','Recipocal Randic index ',
@@ -18,7 +14,7 @@ def display(f):
       st.write(l[i],f[1][i+1])
     
 try:    
-    if option=="cmpd name":
+    #if option=="cmpd name":
         c= st.text_input("Enter cmpd name")
         #st.write("Hello", your_name)
         #c=smiles_to_iupac(c)
@@ -30,7 +26,7 @@ try:
         st.pyplot(fig=f[0])
         display(f)
         
-    else:
+    """else:
         c= st.text_input("Enter SMILES")
         #st.write("Hello", your_name)
         #c=smiles_to_iupac(c)
@@ -40,7 +36,7 @@ try:
         r=qspr.topological_ind(c)
         st.subheader("Molecular graph")
         st.pyplot(fig=r[0])
-        dispaly(r)
+        dispaly(r)"""
 except AttributeError:
     pass
         
