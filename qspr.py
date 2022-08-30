@@ -179,7 +179,7 @@ def topological_ind(compound):
 #AZI index------------------------------------------------------------------------
   #print("augmented zagreb:",np.sum(azi))
   if s_adj==2:
-    azi1="Augemented Zagreb index not applicable for this compound"
+    azi1="  : Augemented Zagreb index not applicable for this compound"
   else:
     azi1=np.sum(azi)
   index.append(azi1)
