@@ -129,10 +129,10 @@ def topological_ind(compound):
         p_adj=degree_mat[i]*degree_mat[j]
         s_adj=degree_mat[i]+degree_mat[j]
         ab=np.sqrt((s_adj-2)/p_adj)
-        if s_adj==2:
-            az="Augmented Zagreb index cannt be found for this compound"
-        else:
-            az=((p_adj)/(s_adj-2))**3
+        #if s_adj==2:
+            #az="Augmented Zagreb index cannt be found for this compound"
+        #else:
+        az=((p_adj)/(s_adj-2))**3
         ag=(2*np.sqrt(p_adj)/s_adj)
         sa=np.sqrt(1/s_adj)
         m2.append(p_adj)
