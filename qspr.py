@@ -125,6 +125,7 @@ def topological_ind(compound):
   for i in range(0,n):
     for j in range(0,n):
       matrix_upper=np.triu(matrix, 1)
+      s_adj=0
       if matrix_upper[i,j]!=0:
         p_adj=degree_mat[i]*degree_mat[j]
         s_adj=degree_mat[i]+degree_mat[j]
